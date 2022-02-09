@@ -58,7 +58,7 @@ int main(int argc, char* argv[])
 #else
         
 #ifdef STUDENT_SOLUTION
-        cout<<"Running studnt solution"<<endl;
+        cout<<"Running student solution"<<endl;
         RayTracer rt(j);
         rt.run();
 #else

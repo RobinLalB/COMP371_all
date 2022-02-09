@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="raytracer"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="msvc8"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/robin/source/repos/COMP371_all/COMP371_RaytracerBase/code/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\robin\source\repos\COMP371_all\COMP371_RaytracerBase\code\cmake-build-debug\Makefile VERBOSE=1 all"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\robin\source\repos\COMP371_all\COMP371_RaytracerBase\code\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\robin\source\repos\COMP371_all\COMP371_RaytracerBase\code\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\robin\source\repos\COMP371_all\COMP371_RaytracerBase\code\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="raytracer">
+				<Option output="C:/Users/robin/source/repos/COMP371_all/COMP371_RaytracerBase/code/cmake-build-debug/raytracer.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/robin/source/repos/COMP371_all/COMP371_RaytracerBase/code/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:/Users/robin/libs/eigen-3.4.0"/>
+					<Add directory="C:/Users/robin/source/repos/COMP371_all/COMP371_RaytracerBase/code/src"/>
+					<Add directory="C:/Users/robin/source/repos/COMP371_all/COMP371_RaytracerBase/code/external"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\robin\source\repos\COMP371_all\COMP371_RaytracerBase\code\cmake-build-debug\Makefile VERBOSE=1 raytracer"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\robin\source\repos\COMP371_all\COMP371_RaytracerBase\code\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\robin\source\repos\COMP371_all\COMP371_RaytracerBase\code\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\robin\source\repos\COMP371_all\COMP371_RaytracerBase\code\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="raytracer/fast">
+				<Option output="C:/Users/robin/source/repos/COMP371_all/COMP371_RaytracerBase/code/cmake-build-debug/raytracer.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/robin/source/repos/COMP371_all/COMP371_RaytracerBase/code/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:/Users/robin/libs/eigen-3.4.0"/>
+					<Add directory="C:/Users/robin/source/repos/COMP371_all/COMP371_RaytracerBase/code/src"/>
+					<Add directory="C:/Users/robin/source/repos/COMP371_all/COMP371_RaytracerBase/code/external"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\robin\source\repos\COMP371_all\COMP371_RaytracerBase\code\cmake-build-debug\Makefile VERBOSE=1 raytracer/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\robin\source\repos\COMP371_all\COMP371_RaytracerBase\code\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\robin\source\repos\COMP371_all\COMP371_RaytracerBase\code\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\robin\source\repos\COMP371_all\COMP371_RaytracerBase\code\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/robin/source/repos/COMP371_all/COMP371_RaytracerBase/code/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\robin\source\repos\COMP371_all\COMP371_RaytracerBase\code\cmake-build-debug\Makefile VERBOSE=1 edit_cache"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\robin\source\repos\COMP371_all\COMP371_RaytracerBase\code\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\robin\source\repos\COMP371_all\COMP371_RaytracerBase\code\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\robin\source\repos\COMP371_all\COMP371_RaytracerBase\code\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/robin/source/repos/COMP371_all/COMP371_RaytracerBase/code/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\robin\source\repos\COMP371_all\COMP371_RaytracerBase\code\cmake-build-debug\Makefile VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\robin\source\repos\COMP371_all\COMP371_RaytracerBase\code\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\robin\source\repos\COMP371_all\COMP371_RaytracerBase\code\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\robin\source\repos\COMP371_all\COMP371_RaytracerBase\code\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/robin/source/repos/COMP371_all/COMP371_RaytracerBase/code/external/simpleppm.cpp">
+			<Option target="raytracer"/>
+		</Unit>
+		<Unit filename="C:/Users/robin/source/repos/COMP371_all/COMP371_RaytracerBase/code/external/simpleppm.h">
+			<Option target="raytracer"/>
+		</Unit>
+		<Unit filename="C:/Users/robin/source/repos/COMP371_all/COMP371_RaytracerBase/code/external/test_eigen.cpp">
+			<Option target="raytracer"/>
+		</Unit>
+		<Unit filename="C:/Users/robin/source/repos/COMP371_all/COMP371_RaytracerBase/code/external/test_json.cpp">
+			<Option target="raytracer"/>
+		</Unit>
+		<Unit filename="C:/Users/robin/source/repos/COMP371_all/COMP371_RaytracerBase/code/external/test_ppm.cpp">
+			<Option target="raytracer"/>
+		</Unit>
+		<Unit filename="C:/Users/robin/source/repos/COMP371_all/COMP371_RaytracerBase/code/main.cpp">
+			<Option target="raytracer"/>
+		</Unit>
+		<Unit filename="C:/Users/robin/source/repos/COMP371_all/COMP371_RaytracerBase/code/src/RayTracer.cpp">
+			<Option target="raytracer"/>
+		</Unit>
+		<Unit filename="C:/Users/robin/source/repos/COMP371_all/COMP371_RaytracerBase/code/src/RayTracer.h">
+			<Option target="raytracer"/>
+		</Unit>
+		<Unit filename="C:/Users/robin/source/repos/COMP371_all/COMP371_RaytracerBase/code/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
